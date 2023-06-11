@@ -40,6 +40,88 @@ The project requires a .env file with the following environment variables:
 - **MP**: Email password.
 - **SMPT_PORT**: Port number for smtp service.
 
+## Features
+
+### Authentication and Authorization
+
+- The project includes a robust authentication and authorization system for API endpoints, ensuring that only authenticated and authorized users can access certain functionalities.
+
+### Admin Panel
+
+#### User Management API
+
+- This feature allows administrators to manage user accounts, including creating new users, updating user details, and deleting user accounts.
+
+#### Product Management
+
+- The admin panel provides APIs for managing products, including creating new products, updating product details, and deleting products.
+
+#### Product Category
+
+- The project includes APIs to manage product categories, allowing administrators to create, update, and delete categories for organizing products.
+
+#### Enquiry Management
+
+- The admin panel provides APIs for managing customer inquiries, allowing administrators to view, respond to, and track customer inquiries.
+
+#### Blog Management
+
+- This feature enables administrators to manage blog posts, including creating new blog posts, updating existing posts, and deleting blog posts.
+
+#### Blog Category
+
+- The project includes APIs for managing blog categories, allowing administrators to create, update, and delete categories for organizing blog posts.
+
+#### Color Management
+
+- This feature enables administrators to manage colors for products, including creating new colors, updating existing colors, and deleting colors.
+
+#### Image Uploading
+
+- The admin panel provides APIs for uploading images, allowing administrators to upload and manage images for products and blog posts.
+
+### Website API
+
+#### User Registration
+
+- This feature allows users to register for an account on the website by providing the necessary details, such as name, email, and password.
+
+#### User Login
+
+- The project includes an API for user login, allowing registered users to authenticate and access their accounts.
+
+#### Product
+
+- The website API provides endpoints for retrieving product information, including details, images, and pricing.
+
+#### Categories
+
+- This feature allows users to browse products based on different categories, making it easy to find products in specific categories.
+
+#### Best Selling Product
+
+- The project includes an API to retrieve a list of best-selling products, providing users with popular product recommendations.
+
+#### Compare Product
+
+- This feature enables users to compare multiple products side by side, allowing them to make informed purchasing decisions.
+
+#### Pagination of Product
+
+- The website API supports pagination of product listings, ensuring efficient loading and navigation of large product catalogs.
+
+#### Reviews
+
+- Users can leave reviews and ratings for products, providing valuable feedback to other users and helping them make purchasing decisions.
+
+#### Rating
+
+- The project includes a rating system for products, allowing users to rate products based on their experience.
+
+## Contributing
+
+Contributions are welcome! If you find any issues or have suggestions, feel free to open an issue or submit a pull request.
+
 ## Getting Started
 
 To get the project up and running on your local machine, follow these steps:
